@@ -1,0 +1,26 @@
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+        "name":"shivagnsh",
+        "email":"shiafdgdvsnh@gmai.coim",
+        "password":"111111111"
+}
+
+###
+
+POST http://localhost:5000/signin
+Content-Type: application/json
+
+{
+        "email":"shiafdgdvsnh@gmai.coim",
+        "password":"111111111"
+}
+
+###
+
+GET http://localhost:5000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjdmZjZmY2M2MzYxOTJlMWMxM2ZhZDgiLCJpYXQiOjE2MDIyMjU2NjF9.HSvrZcK6bB6Shf5sG1IJZyzibydm7nQTi0PPTjnR5B0
+
+###
+
